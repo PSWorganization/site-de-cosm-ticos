@@ -1,0 +1,90 @@
+/* Reset básico para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.login-cadastro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cadastro-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cadastro-container form {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cadastro-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cadastro-container button {
+    grid-column: span 2;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cadastro-container button:hover {
+    background-color: #4cae4c;
+}
+
+.error {
+    color: #d9534f;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #5bc0de;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.anuncio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.anuncio img {
+    max-width: 100%;
+    height: auto;
+}
