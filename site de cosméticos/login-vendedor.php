@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="login-cadastro-container">
-<div class="login-container">
+<div class="registro-container">
         <h2>Login de vendedor</h2>
         <form action="" method="POST">
         <input type="text" name="cnpj" placeholder="CNPJ (somente números)" required pattern="\d{14}" title="Digite um CNPJ válido com 14 dígitos">

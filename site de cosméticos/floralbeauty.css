@@ -547,28 +547,39 @@ footer a:active {
 
 
 
-/* coisas do login de usuário e vendedor*/
+/* coisas do login e cadastro de usuário, produto e vendedor*/
 .login-cadastro-container{
      background-image: url(fundoa.png);
      display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 100vh ;
     margin: 0;
+    box-shadow: 8px 8px 8px rgba(179, 177, 177, 0.363);
 }
 
-.login-container {
+.catalogar{
+    background-color: #f8ecef;
+    padding: 30px;
+    align-self: center;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.registro-container {
    background-color: #f8ecef; 
    padding: 30px;  
     align-self: center;
    border-radius: 8px;
    height: auto;
-   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
    text-align: center;
-   box-shadow: 8px 8px 8px rgba(179, 177, 177, 0.363);
+   
 }
 
-.login-container h2 {
+.registro-container h2 {
     margin-bottom: 25px;
     color: rgb(238, 224, 68);
     font-size: 28px;
@@ -577,56 +588,70 @@ footer a:active {
      
 }
 
-.login-container form {
+.registro-container form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.login-container input[type="text"],
-.login-container input[type="email"],
-.login-container input[type="password"] {
+.registro-container input[type="text"],
+.registro-container input[type="email"],
+.registro-container input[type="password"],
+.registro-container input[type="number"],
+.registro-container select {
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     width: auto;
     box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
 }
 
-.login-container button {
+.registro-container input[type="text"]:focus,
+.registro-container input[type="number"]:focus,
+.registro-container select:focus {
+    border-color: #b83b5e;
+    outline: none;
+}
+
+.registro-container button {
     padding: 12px;
     background-color: #c94d6d; 
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
    
 }
 
-.login-container button:hover {
+.registro-container button:hover {
     background-color: #b83b5e;
 }
 
-.login-container .error {
+.registro-container .error {
     color: red;
     margin-top: 10px;
 }
 
-.login-container .links {
+.registro-container .links {
     margin-top: 25px;
 }
 
-.login-container .links a {
+.registro-container .links a {
     color: rgb(14, 14, 167);
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.2s ease;
 }
 
-.login-container .links a:hover {
+.registro-container .links a:hover {
     color: #ffd700;
 }
 
-.login-container .links a:active {
+.registro-container .links a:active {
     color: #ff4500; 
 }
 .anuncio {
@@ -634,7 +659,7 @@ footer a:active {
     justify-content: center;
     align-items: center;
     margin: 60px;
-    height: 80%;
+    height: 60%;
     width: 450px;
     background-color: #f9f4b5;
     border-radius: 8px;
@@ -648,4 +673,25 @@ footer a:active {
     height: 250px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-label {
+    display: block;
+    padding: 12px;
+    background-color: #c94d6d;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border: none;
+}
+
+.file-upload-label:hover {
+    background-color: #b83b5e;
+}
+
+.file-upload-label:active {
+    background-color: #a13958;
 }

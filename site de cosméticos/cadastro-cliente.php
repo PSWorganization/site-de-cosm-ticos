@@ -14,9 +14,9 @@ include_once("header.php");
 
     <div class="login-cadastro-container">
        
-        <div class="cadastro-container login-container">
-            <h2>Cadastro de Cliente</h2>
-            <form action="processar_cadastro.php" method="POST" class="cadastro-container">
+        <div class="registro-container">
+            <h2>Cadastre-se e compre!</h2>
+            <form action="processar_cadastro.php" method="POST" class="registro-container">
                     <input type="text" name="nome" placeholder="Nome Completo" required>
                     <input type="email" name="email" placeholder="E-mail" required>
                  <div>
@@ -32,7 +32,7 @@ include_once("header.php");
             </form>
             <div class="links">
              <a href="login-cliente.php">Login de Cliente</a>
-            <a href="cadastro-vendedor.php">Cadastro de Vendedor</a>
+            <a href="login-vendedor.php">Login de Vendedor</a>
         </div>
         </div>
         <div class="anuncio">

@@ -42,8 +42,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="anuncio">
         <img src="anuncio.jpg" alt="Anúncio">
     </div>
-    <div class="cadastro-container login-container">
-        <h2>Cadastro de Vendedor</h2>
+    <div class="registro-container">
+        <h2>Cadastre-se e prospere!</h2>
         <form action="" method="POST">
             
             <input type="text" name="name" placeholder="Nome Completo" required>

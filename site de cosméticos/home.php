@@ -146,7 +146,7 @@ include_once("header.php");
             Não perca tempo! Transforme suas ideias em negócios e atinja novos patamares com a nossa plataforma. 
             Clique no botão abaixo e comece sua jornada como vendedor hoje mesmo!
             </p>
-            <button> Tornar-se Vendedor </button>
+           <a href="cadastro-vendedor.php"> <button> Tornar-se Vendedor </button></a>
         </div>
         <div class="apresentacao-baixo-lado-direito">
             <img src="sacola.png" alt="venda AGORA">

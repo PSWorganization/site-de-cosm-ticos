@@ -31,8 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="login-cadastro-container">
-<div class="login-container">
-        <h2>Login de Usuário</h2>
+<div class="registro-container">
+        <h2>Login de Cliente</h2>
         <form action="" method="POST">
             <input type="email" name="email" placeholder="E-mail" required>
             <input type="password" name="password" placeholder="Senha" required>
